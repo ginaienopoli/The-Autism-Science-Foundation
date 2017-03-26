@@ -1,18 +1,30 @@
 *{
   font-family: 'Open Sans', sans-serif;
+  color: #3b3b3b;
 }
 
-@media only screen and (max-width: 700px){
-    .responsive {
-        width: 49.99999%;
-        margin: 6px 0;
-    }
+ul {
+  width: 190px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
-@media only screen and (max-width: 500px){
-    .responsive {
-        width: 100%;
-    }
+.title {
+    position:absolute;
+    left:243px; right:0;
+    height: 92px;
+    font-size: 30px;
+}
+.sidebar {
+    position:absolute;
+    left:20px; top:108px; bottom: 0;
+    width: 178px;
+}
+.main {
+    position: absolute;
+    left:250px; top:150px; right:0; bottom:0;
+    font-size: 20px;
 }
 
 form {
@@ -64,4 +76,15 @@ button:hover span {
 button:hover span:after {
   opacity: 1;
   right: 0;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
 }
